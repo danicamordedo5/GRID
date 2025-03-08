@@ -1,0 +1,48 @@
+h1{
+    background-color: aquamarine;
+    text-align: center;
+}
+body{
+    background-color: beige;
+}
+.container{
+    display: grid;
+    grid-template-rows: 100px 300px 100px;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+   'wattpad-1'
+   'wattpad-2'
+   'wattpad-3';
+   
+
+}
+.wattpad-1{
+   grid-row: 1 / 3;
+   grid-column: 1 / 5;
+   background-color: #797d7f;
+   padding: 50px 100px 50px 100px;
+   border-radius: 10px;
+   margin: 100px 100px 100px 100px;
+   
+   
+}
+.wattpad-2{
+    grid-row: 1 / 3;
+   grid-column: 5 / 7;
+   background-color:#1b4f72;
+   padding: 50px 100px 50px 100px;
+   border-radius: 10px;
+   margin: 100px 100px 100px 100px;
+  
+   
+}
+.wattpad-3{
+    grid-row: 3 / 7;
+   grid-column: 1 / 7;
+   background-color: #0e6251;
+   padding: 100px 100px 100px 100px;
+   border-radius: 10px;
+   margin: 100px 100px 100px 100px;
+   text-align: center;
+   
+}
